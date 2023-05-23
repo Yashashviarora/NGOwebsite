@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DONATE FOR POOR PERSON</title>
+    <link rel="stylesheet" href="style.css">
+    
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"> -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body{
+        background: rgb(129, 151, 151);
+    }
+    .header{
+    /* margin:20px 0 20px 0; */
+     padding:10px 20px 0 30px;
+     background-color: rgba(190, 197, 197, 0.655);
+    }
+    .nav .ULL .alltag li a{
+        color: #b3a8a8;
+    }
+    .nav .bar{
+        color: #b3aaaa;
+    }
+    #slide{
+        width: 80%;
+        height: 500px;
+        margin:40px auto;
+        position: relative;
+        
+    }
+    #slide img{
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+      
+        filter: blur(2px);
+      -webkit-filter: blur(2px);
+
+    }
+    .razor{
+        position: absolute;
+        /* background-color: #55acee; */
+        width: 100%;
+        bottom: 10px;
+        text-align: center;
+    }
+    .HAND{
+        position: absolute;
+        
+        bottom: 15px;
+        right: 38%;
+        transform: rotate(-35deg);
+        animation: blink 2s linear infinite;
+        /* text-align: center;  */
+    }
+    @keyframes blink{
+        50%{
+            opacity: 0;
+        }
+        100%{
+            opacity: 1;
+        }
+    }
+    @media (max-width:650px){
+        #slide{
+        width: 80%;
+        height: 400px;
+        margin:40px auto;
+        
+    }
+    }
+    @media (max-width:650px){
+        #slide{
+        width: 80%;
+        height: 350px;
+        margin:40px auto;
+        
+    }
+    }
+    
+  </style>
+</head>
+<body>
+    <section class="header">
+        <div class="nav">
+            
+          <p class="DO">
+              DONATE for spark
+        </p>
+          <div class="ULL">
+          <ul class="alltag">
+           
+             <li class="UL"><a href="./home.html">Home</a></li> 
+             <li class="UL"><a href="./contact.html">Contact</a></li> 
+             <li class="UL"><a href="./aboutus.html">about us</a></li> 
+             
+          </ul>
+        </div>
+        <div class="bar bar1"><i class="fa fa-bars BAR " onclick="navbar()"></i></div>
+        <div class="bar bar2"><i class="fa fa-close BAR " onclick="navbar2()"></i></div>  
+       
+      </div>
+      
+    
+      </section>
+      <section id="slide">
+      <img src="donate2.jpg">
+     <form class="razor"><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_KKRvGpHRPlXGFi" async> </script> </form>
+    <div class="HAND">  <i class="fa fa-hand-o-left " style="font-size:48px;color:rgba(215, 45, 156, 0.784)"></i></div>
+      </section>
+      <footer class=" text-center text-white fOOt">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button"
+              ><i class="fa fa-facebook-square"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button"
+              ><i class="fa fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fa fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fa fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="fa fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+       
+        <!-- Copyright -->
+      </footer>
+    <script src="script.js">
+    
+    </script>
+</body>
